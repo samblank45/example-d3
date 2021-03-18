@@ -1,11 +1,13 @@
 import React from 'react'
+import ChartWrapper from './components/ChartWrapper'
 
-const App = () => {
-  return (
-    <div>
-      hello
-    </div>
-  )
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <ChartWrapper /> 
+      </div>
+    )
+  }
 }
-
 export default App
