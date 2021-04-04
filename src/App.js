@@ -1,11 +1,11 @@
 import React from 'react'
-import ChartWrapper from './components/ChartWrapper'
+import MapChart from './components/MapChart'
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <ChartWrapper /> 
+        <MapChart />
       </div>
     )
   }
